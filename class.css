@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    direction: rtl;
+    background-image: url(./bg.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-size: cover;
+}
+
+.page {
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.page form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page form a {
+    color: white;
+    text-decoration: none;
+}
+
+.page h1 {
+    margin-bottom: 30px;
+}
+
+.page h4 {
+    margin-bottom: 30px;
+}
+
+.page form input:nth-child(2) {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+}
+
+.name {
+    position: absolute;
+    left: 37%;
+    top: 47%;
+}
+
+.ramz {
+    position: absolute;
+    left: 37%;
+    top: 57%;
+}
+
+.page form input:nth-child(2)::placeholder {
+    color: white;
+}
+
+.page form input:nth-child(4) {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+}
+
+.page form input:nth-child(4)::placeholder {
+    color: white;
+}
+
+.page form input:nth-child(3) {
+    display: inline-block;
+}
+
+.page form input {
+    width: 100%;
+    margin: 10px;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.page form input[type='submit'] {
+    margin: 10px;
+    width: 100%;
+    background-color: #1d89e4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 300ms;
+}
+
+.page form input[type='submit']:hover {
+    background-color: #1272c0;
+}
+
+.remember {
+    width: 100%;
+}
+
+.page.check {
+    position: absolute;
+    left: 13%;
+}
+
+.page label {
+    font-size: 9px;
+}
+
+.page a {
+    font-size: 9px;
+    margin-right: 15px;
+    transition: 30ms;
+}
+
+.page a:hover {
+    color: rgba(255, 255, 255, 0.856);
+    text-decoration: underline;
+}
